@@ -158,9 +158,65 @@
     </table>
     <hr>
 
+    <!-- Forms -->
+    <h2>Forms</h2>
+    <form action="process.php">
+        <div>
+            <label>First Name<label>
+            <input type="text" name="firstName" placeholder="Enter first name...">
+        </div>
+            <br>
+        <div>
+            <label>Last Name<label>
+            <input type="text" name="lastName" placeholder="Enter last name...">
+        </div>
+            <br>
+        <div>
+            <label>Email<label>
+            <input type="email" name="email" placeholder="Enter first email...">
+        </div>
+            <br>
+        <div>
+            <label>Message<label>
+            <textarea name="message" id="message" cols="50" rows="10" placeholder="Message..."></textarea>
+        </div>
+            <br>
+        <div>
+            <label>Gender<label>
+                <Select name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                    <option value="animal">Animal</option>
+                </Select>
+        </div>
+        <br>
+        <div>
+            <label>Age<label>
+                <input type="number" name="age" value="" placeholder="Enter first age...">
+        </div>
+        <br>
+        <div>
+            <label>Birthday:<label>
+                <input type="date" name="birthday" placeholder="Enter date...">
+        </div>
+        <br>
+        <input type="submit" name="submit" value="Submit">
+    </form>
+
+    <!-- Button -->
+
+    <br>
+    <h4>Attribute - action</h4>
+    <p>The <strong> <em>action</em> attribute</strong> submits the form to back end, usually a database to store the information stored in the form. This can be a newsletter or register form</p>
+    <h4>Attribute - method</h4>
+    <p>The <strong><em>method</em></strong> attribute value of <strong> POST</strong> is to make a post request to the server,this adds data to a database.</p>
+    <p>The <strong>GET</strong> request is not as secure as you can see the data in the URL. More usefull for searches or finding other data</p>
+    <hr>
 
 
-    <div style="height: 300px;"></div>
+
+    <div style="height: 700px;"></div>
 
 </body>
 
