@@ -5,14 +5,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML for Beginners - Blog Page</title>
+    <style type="text/css">
+        #main_header {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        #main_footer {}
+    </style>
 </head>
 
 <body>
-    <h1>My Blog Page</h1>
+    <header id="main_header">
+        <h1>My Blog Page</h1>
+    </header>
     <a href="index.html" target="_blank">Home</a>
+
+    <section>
+        <article class="posts">
+            <h3>Blog Posts 1</h3>
+            <small>Posted by Thomas Wayne on Dec 2020</small>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, nobis libero autem nostrum fugit nulla, iure fuga culpa ea similique voluptatibus cupiditate eaque sint error cumque accusantium laudantium corporis beatae?</p>
+            <a href="post.html">Read More</a>
+        </article>
+        <article class="posts">
+            <h3>Blog Posts 2</h3>
+            <small>Posted by Thomas Wayne on Dec 2020</small>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, nobis libero autem nostrum fugit nulla, iure fuga culpa ea similique voluptatibus cupiditate eaque sint error cumque accusantium laudantium corporis beatae?</p>
+            <a href="post.html">Read More</a>
+
+            <article class="posts">
+                <h3>Blog Posts 3</h3>
+                <small>Posted by Thomas Wayne on Dec 2020</small>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, nobis libero autem nostrum fugit nulla, iure fuga culpa ea similique voluptatibus cupiditate eaque sint error cumque accusantium laudantium corporis beatae?</p>
+                <a href="post.html">Read More</a>
+
+            </article>
+    </section>
+    <aside>
+        <h3>Categories</h3>
+        <nav>
+            <ul>
+                <li><a href="#">Category One</a></li>
+                <li><a href="#">Category Two</a></li>
+                <li><a href="#">Category Three</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <footer id="main_footer">
+        <p><small>Copyright &copy; 2020, theTrainman</small></p>
+    </footer>
+
     <hr>
-
-
     <a href="index.html" target="_blank">Home</a>
 
     <div style="height: 700px;"></div>
